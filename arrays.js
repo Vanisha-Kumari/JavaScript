@@ -46,9 +46,11 @@ console.log(foodItems);
 //concat
 let marvelHeroes = ["thor", "spiderman", "ironman"];
 
-console.log(marvel);
+
 let dcHeroes = ["superman", "batmen"];
 marvelHeroes.shift();
+
+let heroes=marvelHeroes.concat(dcHeroes);
 
 let heroes = marvelHeroes.concat(dcHeroes);
 console.log(heroes);
